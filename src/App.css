@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Stylish&display=swap');
+
+.app-header{
+  text-align: center;
+  padding: 20px;
+}
+
+.header{
+  font-family: 'Stylish', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.app-body{
+  padding: 20px;
+  text-align: center;
+}
+
+.body-app{
+  background-image: url(./components/images/background.png);
+}
+
+.language-select{
+  height: 40px !important;
+  margin-bottom: 15px;
+  outline: none !important;
+}
+
+.form__group:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 7px solid #55c57a;
+}
+
